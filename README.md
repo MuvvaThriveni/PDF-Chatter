@@ -11,7 +11,7 @@ Chat with your PDF is an innovative application powered by advanced technologies
 - Enhanced Retrieval Efficiency: The integration of Chromadb significantly improves the application's ability to handle user queries effectively, delivering precise and contextually 
   relevant responses.
   
-### OpenAI Embeddings Implementation
+### Embeddings Implementation
 - Model: The embeddings are created using the SentenceTransformer model with the "all-MiniLM-L6-v2" configuration.
 - Process: The PDF documents are ingested, and the text content is split using RecursiveCharacterTextSplitter. Sentence embeddings are then generated using the SentenceTransformer model, 
   capturing semantic information from the documents.
